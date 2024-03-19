@@ -6,7 +6,7 @@ function soat()
     let  soat = new Date();
     let hour = soat.getHours();
     let minut = soat.getMinutes();
-    let seocnd = soat.getSeconds();
+    let second = soat.getSeconds();
     let result = hour + ":" + minut + ":" + second;
     document.write(result)
 }
